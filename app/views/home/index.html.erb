@@ -1,0 +1,61 @@
+<div class="container case">
+  <div class="row">
+    <div class="span5 case-details">
+      <h2><%= @case.title %></h2>
+      <p><%= @case.description %></p>
+      <div class="row">
+        <div class="span3">
+          <button type="submit" class="btn btn-large btn-subscribe big">إتبرع دلوقتى</button>
+        </div>
+        <div class="span2 read-more">
+          <a href="javascript:void(0);" title="تفاصيل أكتر عن الحالة">تفاصيل أكتر عن الحالة &nbsp; &nbsp; &raquo;</a>
+        </div>
+      </div><!-- /row -->
+    </div>
+    <div class="span5 offset1 donation-details">
+      <div class="row">
+        <div class="span5">
+          <p class="title">الوقت المتبقى علشان تتبرع</p>
+          <div id="flip-container"></div>
+        </div>
+      </div><!-- /row -->
+      <div class="row">
+        <div class="span5">
+          <p class="title">الفلوس المطلوبه</p>
+          <div class="progress progress-default">
+            <div class="bar" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div><!-- /row -->
+      <div class="row">
+        <div class="<%= amount_donated_class(@case) %> donated">
+          <p><span>جمعنا</span><span class="count"><%= number_with_delimiter(@case.current_amount) %></span><span>جنيه</span></p>
+        </div>
+        <div class="<%= amount_remaining_class(@case) %> remaining">
+          <p><span>فاضل</span><span class="count"><%= number_with_delimiter(@case.amount_remaining) %></span><span>جنيه</span></p>
+        </div>
+      </div><!-- /row -->
+    </div>
+  </div><!-- /row -->
+</div><!-- /container -->
+<div class="media">
+  <div class="container">
+    <div class="row share">
+      <div class="span4 offset8">
+        <div class="share-text">ساعدنا بنشر الفيديو</div>
+        <div class="share-icons">
+          <ul class="nav nav-pills">
+            <li class="hide-text"><a href="javascript:void(0);" class="twitter" title="أنشر على تويتر">أنشر على تويتر</a></li>
+            <li class="hide-text"><a href="javascript:void(0);" class="facebook" title="أنشر على فيس بوك">أنشر على فيس بوك</a></li>
+            <li class="hide-text"><a href="javascript:void(0);" class="gplus" title="أنشر على جوجل بلس">أنشر على جوجل بلس</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- /row -->
+    <div class="row">
+      <div class="span12">
+        <iframe width="855" height="510" src="http://www.youtube.com/embed/zgyhrqoa_-E" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+</div><!-- /media -->
