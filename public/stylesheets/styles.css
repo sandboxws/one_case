@@ -1,0 +1,7 @@
+html{ direction:rtl; background:url(../images/html-bg.jpg) repeat-x top;}
+body{ background:url(../images/body-bg.jpg) no-repeat top center;}
+.header{ min-height:120px;}
+.content{ min-height:700px; margin:40px 0;}
+.footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:60px;}
+.logo{ background: url(../images/logo.png) no-repeat; display:block; text-indent:-9999px; width:92px; height:70px; margin-top:25px;}
+
