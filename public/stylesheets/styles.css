@@ -5,3 +5,13 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:60px;}
 .logo{ background: url(../images/logo.png) no-repeat; display:block; text-indent:-9999px; width:92px; height:70px; margin-top:25px;}
 
+.header .nav-pills{ margin-top:45px;}
+.header .search{ color:#fff; margin-top:22px;}
+.header .search p{ font-size:12px; margin-bottom:0;}
+.header .span1{ width:100px;}
+.header .span4{ }
+
+.social{ background: url(../images/social.png) no-repeat; width:22px; height:22px; display:inline-block; text-indent:-9999px; margin:50px 2px 0;}
+.facebook{ background-position:-62px 0; }
+.twitter{ background-position:1px 0; }
+.google{ background-position:-30px 0; }
