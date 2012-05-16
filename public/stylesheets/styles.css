@@ -1,17 +1,38 @@
 html{ direction:rtl; background:url(../images/html-bg.jpg) repeat-x top;}
 body{ background:url(../images/body-bg.jpg) no-repeat top center;}
-.header{ min-height:120px;}
 .content{ min-height:700px; margin:40px 0;}
-.footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:60px;}
-.logo{ background: url(../images/logo.png) no-repeat; display:block; text-indent:-9999px; width:92px; height:70px; margin-top:25px;}
 
+.header{ min-height:120px;}
+.header .logo{ background: url(../images/logo.png) no-repeat; display:block; text-indent:-9999px; width:92px; height:70px; margin-top:25px;}
 .header .nav-pills{ margin-top:45px;}
-.header .search{ color:#fff; margin-top:22px;}
-.header .search p{ font-size:12px; margin-bottom:0;}
+.header .search{  margin-top:22px; color:#fff;}
+.header .search p, .footer .search p{ font-size:12px; margin-bottom:0;}
 .header .span1{ width:100px;}
-.header .span4{ }
 
 .social{ background: url(../images/social.png) no-repeat; width:22px; height:22px; display:inline-block; text-indent:-9999px; margin:50px 2px 0;}
-.facebook{ background-position:-62px 0; }
-.twitter{ background-position:1px 0; }
-.google{ background-position:-30px 0;  }
+.facebook{ background-position:-62px 0;}
+.twitter{ background-position:1px 0;}
+.google{ background-position:-30px 0;}
+
+.footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:160px; padding-top:40px;}
+.footer .menu a{ color:#666; margin-left:10px;}
+
+/*-- home --*/
+.media-show{ margin-top:40px; text-align:center;}
+
+
+
+/*-- ngo listing --*/
+.ngo-block.span5{  width:440px; min-height:140px; margin-bottom:40px;}
+.ngo-block .box{ background: #fff; border-width:1px 2px 2px 1px; border-color:#eee; border-style:solid; margin-right:20px;}
+.ngo-block .span3{ width:240px; margin:0}
+.ngo-block .span2{ width:197px; margin:0; min-height:160px; }
+.ngo-block .ngo-logo{ text-align:center;}
+.ngo-block .ngo-logo img{ margin:20px auto; }
+.ngo-block .stats{ background: #fdfefe url(../images/ngo-block-bg.png) repeat-y right;}
+.ngo-block .stats p{ margin:20px; color:#99bebf; font-size:18px; }
+.ngo-block .stats p span{ color:#529aae; font-weight:bold;}
+
+.ngo-info.span5{ width:440px;}
+.ngo-info h3{ margin:10px 0 0; color:#e88a60;}
+.ngo-info .btn{ margin-top:5px;}
