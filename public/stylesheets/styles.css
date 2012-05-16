@@ -14,4 +14,4 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .social{ background: url(../images/social.png) no-repeat; width:22px; height:22px; display:inline-block; text-indent:-9999px; margin:50px 2px 0;}
 .facebook{ background-position:-62px 0; }
 .twitter{ background-position:1px 0; }
-.google{ background-position:-30px 0; }
+.google{ background-position:-30px 0;  }
