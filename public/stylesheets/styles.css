@@ -17,6 +17,8 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:160px; padding-top:40px;}
 .footer .menu a{ color:#666; margin-left:10px;}
 
+h1{ color:#378AA1;}
+
 /*-- home --*/
 .media-show{ margin-top:40px; text-align:center;}
 
@@ -37,3 +39,7 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .ngo-info h3{ margin:10px 0 0; color:#e88a60;}
 .ngo-info .btn{ margin-top:5px;}
 .ngo-info .time{ font-size:12px; color:#999; margin-bottom:0;}
+
+.center{ text-align:center;}
+.share-case{ margin:40px 0;}
+.thanks h1{ margin:20px 0;}
