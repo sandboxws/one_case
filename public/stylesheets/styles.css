@@ -36,3 +36,4 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .ngo-info.span5{ width:440px;}
 .ngo-info h3{ margin:10px 0 0; color:#e88a60;}
 .ngo-info .btn{ margin-top:5px;}
+.ngo-info .time{ font-size:12px; color:#999; margin-bottom:0;}
