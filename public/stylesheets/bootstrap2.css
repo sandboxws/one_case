@@ -29,7 +29,7 @@ input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;
 input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
 textarea{overflow:auto;vertical-align:top;}
 body{margin:0;font-family:Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:22px;color:#666666;background-color:#ffffff;}
-a{color:#378aa1;text-decoration:none;}
+a{color:#e2581b;text-decoration:none;}
 a:hover{color:#245968;text-decoration:underline;}
 .row{margin-right:-20px;*zoom:1;}.row:before,.row:after{display:table;content:"";}
 .row:after{clear:both;}

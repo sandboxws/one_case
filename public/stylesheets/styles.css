@@ -5,6 +5,9 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .header{ min-height:120px;}
 .header .logo{ background: url(../images/logo.png) no-repeat; display:block; text-indent:-9999px; width:92px; height:70px; margin-top:25px;}
 .header .nav-pills{ margin-top:45px;}
+.header .nav-pills a{color:#378AA1;}
+.header .nav-pills > .active > a{ color:#fff;}
+.header .nav-pills{ margin-top:45px;}
 .header .search{  margin-top:22px; color:#fff;}
 .header .search p, .footer .search p{ font-size:12px; margin-bottom:0;}
 .header .span1{ width:100px;}
@@ -17,7 +20,9 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .footer{ background:url(../images/footer-bg.png) no-repeat center top; min-height:160px; padding-top:40px;}
 .footer .menu a{ color:#666; margin-left:10px;}
 
-h1{ color:#378AA1;}
+h1{ color:#378AA1; font-weight:normal;}
+
+
 
 /*-- home --*/
 .media-show{ margin-top:40px; text-align:center;}
