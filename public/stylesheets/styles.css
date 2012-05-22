@@ -25,8 +25,8 @@ h1{ color:#378AA1; font-weight:normal;}
 
 
 /*-- home --*/
-.media-show{ margin-top:40px; text-align:center;}
-.share-media .text{ margin-left:10px;}
+.media-show{text-align:center;}
+.media-share{ margin-top:40px;}
 .time{ background:url(../images/time-bg.png) no-repeat; width:352px; height:64px; position:relative; font-size:32px; letter-spacing:20px; margin-bottom:10px;}
 .time .day{ position:absolute; top:9px; left:9px;}
 .time .hour{ position:absolute; top:9px; left:104px;}
