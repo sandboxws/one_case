@@ -21,7 +21,7 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 .footer .menu a{ color:#666; margin-left:10px;}
 
 h1{ color:#378AA1; font-weight:normal;}
-
+.title-small{ color:#378AA1;}
 
 
 /*-- home --*/
@@ -32,6 +32,10 @@ h1{ color:#378AA1; font-weight:normal;}
 .time .hour{ position:absolute; top:9px; left:104px;}
 .time .min{ position:absolute; top:9px; left:195px;}
 .time .sec{ position:absolute; top:9px; left:289px;}
+.case h1{ margin-bottom:5px;}
+.case .intro{ margin-bottom:20px;}
+.money.span2{ margin-right:0;}
+.money.span2 strong{ font-size:18px;}
 
 /*-- ngo listing --*/
 .ngo-block.span5{  width:440px; min-height:140px; margin-bottom:40px;}
