@@ -22,7 +22,7 @@ body{ background:url(../images/body-bg.jpg) no-repeat top center;}
 
 h1{ color:#378AA1; font-weight:normal;}
 .title-small{ color:#378AA1;}
-
+.title-medium{ font-size:24px; color:#378AA1; font-weight:normal; margin:20px 0 10px;}
 
 /*-- home --*/
 .media-show{text-align:center;}
@@ -35,6 +35,10 @@ h1{ color:#378AA1; font-weight:normal;}
 .case h1{ margin-bottom:10px;}
 .case .intro{ margin-bottom:20px;}
 .case .actions{ margin-top:20px;}
+.case-list{ margin-right:20px; margin-bottom:30px;}
+.case-list li{ margin-bottom:5px;}
+ul.case-list{ list-style:none; margin-right:0;}
+.case-list em{ font-style:normal; color:#999;}
 .money.span2{ margin-right:0;}
 .money.span2 strong{ font-size:18px;}
 
