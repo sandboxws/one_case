@@ -32,8 +32,9 @@ h1{ color:#378AA1; font-weight:normal;}
 .time .hour{ position:absolute; top:9px; left:104px;}
 .time .min{ position:absolute; top:9px; left:195px;}
 .time .sec{ position:absolute; top:9px; left:289px;}
-.case h1{ margin-bottom:5px;}
+.case h1{ margin-bottom:10px;}
 .case .intro{ margin-bottom:20px;}
+.case .actions{ margin-top:20px;}
 .money.span2{ margin-right:0;}
 .money.span2 strong{ font-size:18px;}
 
