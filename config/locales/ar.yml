@@ -1,7 +1,26 @@
 ar:
-  title: 'dsada'
+  title: 'حالة واحدة'
+  case: 'حالة'
+  about_us: 'إحنى مين'
+  previous_cases: 'الإنجازات السابقة'
+  available_organizations: 'الجمعيات المشتركة'
+  reg_orgs: 'الجمعيات المشتركة'
+  pound: 'جنية'
+  donators: 'متبرع'
   description: 'دعوة للخير'
+  more_details: 'تفاصيل اكتر'
+  day: 'يوم'
   navigation:
     prev_cases: 'الإنجازات السابقة'
     about_us: 'إحنا مين'
     available_organizations: 'الجمعيات المشتركة'
+  views:
+    pagination:
+      previous: '«'
+      next: '»'
+  ngos_title: 'الجمعيات المشتركة'
+  organization_details: 'بيانات الجمعية'
+  reg_number: 'رقم الإشهار'
+  address: 'العنوان'
+  phone_numbers: 'أرقام التليفونات'
+  bank_account_number: 'رقم حساب الجمعية'

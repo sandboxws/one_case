@@ -1,61 +1,51 @@
-<div class="container case">
+<div class="container">
   <div class="row">
-    <div class="span5 case-details">
-      <h2><%= @case.title %></h2>
-      <p><%= @case.description %></p>
-      <div class="row">
-        <div class="span3">
-          <button type="submit" class="btn btn-large btn-subscribe big">إتبرع دلوقتى</button>
-        </div>
-        <div class="span2 read-more">
-          <a href="javascript:void(0);" title="تفاصيل أكتر عن الحالة">تفاصيل أكتر عن الحالة &nbsp; &nbsp; &raquo;</a>
-        </div>
-      </div><!-- /row -->
-    </div>
-    <div class="span5 offset1 donation-details">
-      <div class="row">
-        <div class="span5">
-          <p class="title">الوقت المتبقى علشان تتبرع</p>
-          <div id="flip-container"></div>
-        </div>
-      </div><!-- /row -->
-      <div class="row">
-        <div class="span5">
-          <p class="title">الفلوس المطلوبه</p>
-          <div class="progress progress-default">
-            <div class="bar" style="width: 50%;"></div>
-          </div>
-        </div>
-      </div><!-- /row -->
-      <div class="row">
-        <div class="<%= amount_donated_class(@case) %> donated">
-          <p><span>جمعنا</span><span class="count"><%= number_with_delimiter(@case.current_amount) %></span><span>جنيه</span></p>
-        </div>
-        <div class="<%= amount_remaining_class(@case) %> remaining">
-          <p><span>فاضل</span><span class="count"><%= number_with_delimiter(@case.amount_remaining) %></span><span>جنيه</span></p>
-        </div>
-      </div><!-- /row -->
-    </div>
-  </div><!-- /row -->
-</div><!-- /container -->
-<div class="media">
-  <div class="container">
-    <div class="row share">
-      <div class="span4 offset8">
-        <div class="share-text">ساعدنا بنشر الفيديو</div>
-        <div class="share-icons">
-          <ul class="nav nav-pills">
-            <li class="hide-text"><a href="javascript:void(0);" class="twitter" title="أنشر على تويتر">أنشر على تويتر</a></li>
-            <li class="hide-text"><a href="javascript:void(0);" class="facebook" title="أنشر على فيس بوك">أنشر على فيس بوك</a></li>
-            <li class="hide-text"><a href="javascript:void(0);" class="gplus" title="أنشر على جوجل بلس">أنشر على جوجل بلس</a></li>
-          </ul>
-        </div>
+    <div class="span6 case">
+      <p><a href="#" class="title-small">زكاة مال</a> : <a href="#" class="title-small"> زواج</a></p>
+      <h1><a href="#">إتبرع لإنقاذ حياة محمد حسني مبارك من المرض</a></h1>
+      <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+      <div class="case actions">
+        <a href="#" class="btn btn-primary btn-large">اتبرع دلوقت</a>&nbsp;&nbsp;
+        <a href="#">تفاصيل أكتر عن الحالة  &raquo;</a>
       </div>
-    </div><!-- /row -->
-    <div class="row">
-      <div class="span12">
-        <iframe width="855" height="510" src="http://www.youtube.com/embed/zgyhrqoa_-E" frameborder="0" allowfullscreen></iframe>
+    </div><!--end span6-->
+    <div class="span5 offset1">
+      <p class="title-small">الوقت المتبقى علشان تتبرع</p>
+      <div class="time">
+        <span class="day">02</span>
+        <span class="hour">19</span>
+        <span class="min">30</span>
+        <span class="sec">02</span>
       </div>
-    </div><!-- /row -->
-  </div><!-- /container -->
-</div><!-- /media -->
+
+      <p class="title-small">الفلوس المطلوبه</p>
+      <div class="progress">
+        <div class="bar" style="width: 60%;"></div>
+      </div>
+
+
+      <div class="span2 money">
+        <p>جمعنا <br /> <strong>145,000</strong> جنيه</p>
+      </div>
+      <div class="span2 money">
+        <p>فاضل <br /> <strong>135,000</strong> جنيه</p>
+      </div>
+
+    </div><!--end span5-->
+
+
+  </div><!--end row-->
+
+  <div class="row media-share">
+    <div class="span9"><p class="pull-left">ساعدنا بنشر الفيديو</p></div> 
+    <div class="span3"><img src="../images/socia-share.png"  /></div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <div class="media-show">
+        <img src="../images/dumm/video.jpg" width="854" height="510" /></div>
+    </div>
+  </div><!--end row-->
+
+</div><!--end container-->

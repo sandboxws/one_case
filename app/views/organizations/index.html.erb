@@ -1,0 +1,37 @@
+<div class="page-header">
+  <h1><%= t(:ngos_title) %></h1>
+</div>
+
+<div class="row">
+<% @organizations.each do |org| %>
+  <div class="span5 ngo-block">
+    <div class="row">
+      <div class="box clearfix">
+        <div class="span3 ngo-logo">
+          <img src="../images/dumm/ngo-logo.png">
+        </div>
+        <div class="span2 stats">
+          <p><span><%= org.cases.count %></span> <%= t(:case) %></p>
+          <p><span><%= number_with_delimiter(org.fund_raised) %></span> <%= t(:pound) %></p>
+          <p><span><%= org.donators_count %></span> <%= t(:donators) %></p>
+        </div>
+      </div><!--end box-->
+    </div><!--end row-->
+    <div class="row">
+      <div class="span5 ngo-info">
+        <h3><%= org.name %></h3>
+        <p><%= org.description %></p>
+        <%= link_to t(:more_details), organization_path(org), class: 'btn btn-primary' %>
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>
+
+<div class="row">
+  <div class="span12">
+    <div class="pagination">
+      <%= paginate @organizations %>      
+    </div>
+  </div>
+</div>

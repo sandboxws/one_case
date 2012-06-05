@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="span6 case">
+    <!-- <p><a href="#" class="title-small">زكاة مال</a> : <a href="#" class="title-small"> زواج</a></p> -->
+    <h3 class="title-medium"><%= @organization.name %></h3>
+    <div class="center ngo-logo">
+      <img src="../images/dumm/ngo-logo.png">
+    </div>
+    <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+    <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+    <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+    <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+    <p>حسني مبارك يعاني من أمراض عديدة مجهولة النوع والمصدر ويوجد بعض التشككات إنه حوار بس على رأي غسان مطر؛ اعمل الصح!</p>
+  </div><!--end span6-->
+
+  <div class="span5 offset1">
+    <div class="old-case-box">
+      <h2><%= @organization.fund_raised %> <span><%= t(:pound) %></span></h2>
+      <h2><%= @organization.donators_count %> <span><%= t(:donators) %></span></h2>
+      <h2><%= @organization.days_count %> <span><%= t(:day) %></span></h2>
+    </div>
+  </div><!--end span5-->
+  <div class="span5 offset1">
+    <h3 class="title-medium"><%= t(:organization_details) %></h3>
+    <ul class="case-list">
+      <li><em><%= t(:reg_number) %>: </em>  <%= @organization.registration_number %></li>
+      <li><em><%= t(:address) %>:</em>  <%= @organization.address %></li>
+      <li><em><%= t(:phone_numbers) %>:</em> <%= @organization.phone_numbers %></li>
+      <li><em><%= t(:bank_account_number) %>:</em>  <%= @organization.bank_account_number %></li>
+    </ul>
+    <p class="title-small"><%= @organization.extra_description %></p>
+  </div>
+
+</div>
