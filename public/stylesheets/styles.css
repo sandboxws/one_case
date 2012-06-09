@@ -28,11 +28,12 @@ h1{ color:#378AA1; font-weight:normal;}
 /*-- home --*/
 .media-show{text-align:center;}
 .media-share{ margin-top:40px;}
-.time{ background:url(../images/time-bg.png) no-repeat; width:352px; height:64px; position:relative; font-size:32px; letter-spacing:20px; margin-bottom:10px;}
-.time .day{ position:absolute; top:9px; left:9px;}
-.time .hour{ position:absolute; top:9px; left:104px;}
-.time .min{ position:absolute; top:9px; left:195px;}
-.time .sec{ position:absolute; top:9px; left:289px;}
+.offset1 .time{ background:url(../images/time-bg.png) no-repeat; width:352px; height:64px; position:relative; font-size:32px; letter-spacing:20px; margin-bottom:10px;}
+.offset1 .time .day{ position:absolute; top:9px; left:9px;}
+.offset1 .time .hour{ position:absolute; top:9px; left:104px;}
+.offset1 .time .min{ position:absolute; top:9px; left:195px;}
+.offset1 .time .sec{ position:absolute; top:9px; left:289px;}
+.offset1 .time.ending{ color:red;}
 .case h1{ margin-bottom:10px;}
 .case .intro{ margin-bottom:20px;}
 .case .actions{ margin-top:20px;}
