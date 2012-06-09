@@ -1,0 +1,35 @@
+<%= simple_form_for(@organization, html: { class: 'form-horizontal' }) do |f| %>
+  <% if @organization.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@organization.errors.count, "error") %> prohibited this organization from being saved:</h2>
+
+      <ul>
+      <% @organization.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <div class="control-group">
+      <%= f.input :name %>
+    </div>
+    <div class="control-group">
+      <%= f.input :description, as: :text, input_html: { class: 'input-xlargs', rows: 5 } %>
+    </div>
+    <div class="control-group">
+      <%= f.input :address %>
+    </div>
+    <div class="control-group">
+      <%= f.input :phone_numbers %>
+    </div>
+    <div class="control-group">
+      <%= f.input :bank_account_number %>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">Save changes</button>
+      <button class="btn">Cancel</button>
+    </div>
+  </fieldset>
+<% end %>

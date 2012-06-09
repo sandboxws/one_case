@@ -39,7 +39,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem "guard", ">= 0.6.2", :group => :development  # need newline here!
+gem 'guard', '>= 0.6.2', :group => :development  # need newline here!
 case HOST_OS
   when /darwin/i
     gem 'rb-fsevent', :group => :development
@@ -53,11 +53,20 @@ case HOST_OS
     gem 'rb-notifu', :group => :development
 end
 
-gem "guard-bundler", ">= 0.1.3", :group => :development
-gem "guard-rails", ">= 0.0.3", :group => :development
-gem "guard-livereload", ">= 0.3.0", :group => :development
-gem "bson_ext", ">= 1.5.2"
-gem "mongoid", ">= 2.4.6"
-gem "omniauth", ">= 1.0.2"
-gem "omniauth-facebook"
-gem "bootstrap-sass", ">= 2.0.1"
+gem 'guard-bundler', '>= 0.1.3', :group => :development
+gem 'guard-rails', '>= 0.0.3', :group => :development
+gem 'guard-livereload', '>= 0.3.0', :group => :development
+gem 'faker', :group => :development
+gem 'pry-rails', :group => :development
+gem 'awesome_print', :group => :development
+
+gem 'bson_ext', '>= 1.5.2'
+gem 'mongoid', '>= 2.4.6'
+gem 'omniauth', '>= 1.0.2'
+gem 'omniauth-facebook'
+gem 'bootstrap-sass', '>= 2.0.1'
+gem 'app_box'
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'mini_magick'
+gem 'kaminari'
+gem 'simple_form'

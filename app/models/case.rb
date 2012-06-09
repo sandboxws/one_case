@@ -1,5 +1,8 @@
 class Case
   include Mongoid::Document
+  include Mongoid::Timestamps
+  
+  mount_uploader :image, ImageUploader
 
   field :title, :type => String
   field :first_name, :type => String
